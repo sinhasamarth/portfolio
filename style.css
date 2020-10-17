@@ -7,6 +7,7 @@ body{
     color: white;
     
 }
+
 *{
    
     max-width: 100%;;
@@ -14,6 +15,7 @@ body{
 html {
     scroll-behavior: smooth;
   }
+
 .Menubar a{
     text-decoration: none;
     color: white;
@@ -40,7 +42,6 @@ html {
     border-bottom: tomato solid 3px;
     transition: ease-in-out 0.3s;
 }
-
 
 
 .col1{
@@ -72,6 +73,7 @@ html {
     text-align: center;
     padding: 30px;
 }
+
 .CL{
     text-transform: uppercase;
     border-bottom: 2px solid tomato;
@@ -82,7 +84,7 @@ html {
 .H1-head{
     font-size: xxx-large;
     border-bottom: tomato solid 3px;
-    width: 30%;
+    width: fit-content;
     margin: auto;
     text-align: center;
     padding: 10px;
@@ -121,3 +123,29 @@ html {
 .connect .fas:hover{
     color: tomato;
 }
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: x-large !important;
+    }
+    *{
+        display: block;
+        
+    }
+    .col1{
+        line-height: normal;
+    }
+    .H1-head{
+        width: fit-content;
+    }
+    .projects{
+        width: fit-content;
+        font-size: large;
+
+    }
+    .connect{
+        display: flex;
+        margin: auto;
+        width: fit-content;
+    }
+  }
