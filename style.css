@@ -1,0 +1,123 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #171717;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+}
+*{
+   
+    max-width: 100%;;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.Menubar a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    padding: 15px;
+    text-transform: uppercase;
+    transition: ease-in-out 0.3s;
+    
+    
+}
+
+.Menubar a:hover{
+    
+   background-color: tomato;
+    padding-bottom: 25px;
+    transform: scale(1.5);
+}
+
+.Menubar{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    border-bottom: tomato solid 3px;
+    transition: ease-in-out 0.3s;
+}
+
+
+
+.col1{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 20vh;
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.fab {
+    font-size: 70px;
+    padding: 20px;
+}
+
+.fas
+{
+    font-size: 70px;
+    padding: 20px;
+}
+
+.tech{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+.CL{
+    text-transform: uppercase;
+    border-bottom: 2px solid tomato;
+    width: fit-content;
+    margin: auto;
+}
+
+.H1-head{
+    font-size: xxx-large;
+    border-bottom: tomato solid 3px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.col2{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.projects {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: small  ;
+}
+.projects .fas{
+    color:tomato;
+    transition: ease-in-out 0.3s;
+    font-size: x-large;
+}
+.projects .fas:hover{
+    color: violet;
+}
+
+.connect{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.connect .fas{
+    font-size: xxx-large;
+}
+.connect .fab{
+    font-size: xxx-large;
+}
+.connect .fas:hover{
+    color: tomato;
+}
